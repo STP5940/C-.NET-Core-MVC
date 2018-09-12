@@ -1,0 +1,10 @@
+ASP.NET Helper
+Beautify
+Bootstrap 3 Snippets
+C#
+HTML Snippets
+htmltagwrap
+Path Intellisense
+Project Manager
+vscode-icons
+WilderMinds' ASP.NET Core Snippets
