@@ -2,6 +2,7 @@ ASP.NET Helper
 Beautify
 Bootstrap 3 Snippets
 C#
+C# Extensions
 HTML Snippets
 htmltagwrap
 Path Intellisense
