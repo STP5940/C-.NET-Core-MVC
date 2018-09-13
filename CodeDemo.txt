@@ -1,6 +1,6 @@
 step1: Create Model
 
-namespace CMQL.Model
+namespace CMQL.Models
 {
     public class Category
     {
@@ -10,3 +10,31 @@ namespace CMQL.Model
     }
 }
 
+using System;
+using Microsoft.AspNetCore.Mvc;
+
+namespace  CMQL.Models
+{
+    public class Prodoct{
+        public int ID { get; set; }
+
+        public string ProdoctID { get; set; }
+
+        public string Name { get; set; }
+        public string Detail { get; set; }
+
+        public decimal Price { get; set; }
+
+        public int CategoryID { get; set; }
+
+        public string image { get; set; }
+
+        public Datetime Timestamp { get; set; }
+
+        public virtual Category Categories { get; set; }
+
+    }
+}
+
+//-------------------------------------
+step2: Create Model
